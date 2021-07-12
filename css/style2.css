@@ -7,7 +7,7 @@
 
 .manu-bar ul{
    list-style: none;
-    color: #fffff;
+    color:gray;
 }
 
 .manu-bar ul li{
@@ -43,8 +43,7 @@ nav >ul >li:hover >ul{
 
 .list-bar{
     display: none;
-    +position: absolute; 
-   
+    position: absolute; 
     padding: 0;
 }
 
