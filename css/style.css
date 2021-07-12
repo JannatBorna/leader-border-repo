@@ -2,6 +2,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 /* top player style */
 
+
+
+/* header start */
+.manu-bar{
+   background: rgb(9, 24, 247);
+   text-align: center;
+   margin:0;
+   padding: 0;
+}
+
+.manu-bar ul{
+   list-style: none;
+    color: #fffff;
+}
+
+.manu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav >ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+ nav li:hover{
+     background-color: darkgray;
+ }
+nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav >ul >li:hover >ul{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.list-bar{
+    display: none;
+    +position: absolute; 
+   
+    padding: 0;
+}
+
+
+
 /* common style or utilities */
 body{
     font-family: 'Poppins', sans-serif;
