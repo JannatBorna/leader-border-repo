@@ -1,0 +1,33 @@
+nav >ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+ nav li:hover{
+     background-color: darkgray;
+ }
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+nav >ul >li:hover >ul{
+    display: block;
+}
+
+.manubar{
+    display: none;
+    position: absolute;
+    background-color: rgb(111, 192, 212);
+    padding: 0;
+}
+
+.manubar li{
+    padding: 0 10px;
+    margin: 0;
+}
