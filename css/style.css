@@ -23,18 +23,18 @@
     padding: 15px;
 }
 
-nav >ul{
+.manu-bar >ul{
     display: flex;
 }
 
-nav li{
+.manu-bar li{
     list-style: none;
     margin-right: 20px;
 }
  nav li:hover{
      background-color: darkgray;
  }
-nav li a{
+.manu-bar li a{
     text-decoration: none;
     color: black;
     
